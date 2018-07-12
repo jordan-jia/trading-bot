@@ -12,8 +12,8 @@ DATEFORMAT='%m-%d'
 TIMEFORMAT='%X'
 
 #--------------------------OTC--------------------------------------------------------
-api_key_otc = 'glLuC0hqU258TxxMQbtukbK0SnlOOG5d3s0BUcLW'
-api_secret_otc = 'vfBqsXnbF5kdux45E6ab8XTIszLMJq9odCwPjx6u'
+api_key_otc = ''
+api_secret_otc = ''
 
 otc_dict = collections.defaultdict(dict)
 otc_dict['usdt_balance'] = 0
@@ -31,8 +31,8 @@ otc_dict['order_now'][0] = {'id':0,'buyorsell':'NULL','price':0,'quntity':0}
 #--------------------------OTC--------------------------------------------------------
 
 #--------------------------BNC--------------------------------------------------------
-api_key_bnc='UXt1Zjs4aV6bG3n7VDlMpQsjLyhrO2AgtkW0QNGa9toeIfdG7MqRaXrWRrcRtNA4'
-api_secret_bnc='yGYp79NqEaT4u4yZjUJWBIpdgQyLc8eQm4YazG4qelVdq3GpfHqwBw2FMDK4XoPD'
+api_key_bnc=''
+api_secret_bnc=''
 client = Client(api_key_bnc,api_secret_bnc)
 
 bnc_dict = collections.defaultdict(dict)
